@@ -14,3 +14,5 @@ Execute in terminal:
 - Learning Path [Web UI javascript](https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path)
 - [Playwright course](https://testautomationu.applitools.com/js-playwright-tutorial)
 - [Playwright website](https://playwright.dev/docs/intro)
+- [How to use Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
+- [Available UI elements](https://the-internet.herokuapp.com/)
