@@ -5,6 +5,7 @@ Install [nodejs](https://nodejs.org/en/download/)
 
 Execute in terminal:
 > npm init -y
+
 > npm i -D playwright
 
 
