@@ -7,7 +7,7 @@ const option_2_value = "2";
 
 (async() => {
     //function code
-    const browser = await chromium.launch({headless:false, slowMo: 100});
+    const browser = await chromium.launch({headless:false, slowMo: 300});
     const page = await browser.newPage();
     await page.goto(URL);
 
@@ -18,6 +18,14 @@ const option_2_value = "2";
     await dropdown.selectOption({label: option_1_label});
     // index
     await dropdown.selectOption({index: 2});
+
+    // values inside
+    const available_options = await dropdown.$$('option');
+    for ( let i = 0; i < available_options.length; i++){
+        console.log(await available_options[i].innerText());
+    }
+    
+
 
     await browser.close();
 })();
