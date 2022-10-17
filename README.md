@@ -8,11 +8,13 @@ Execute in terminal:
 
 > npm i -D playwright
 
+> npm install -D jest
 
 # Resources
 
 - [Playwright website](https://playwright.dev/docs/intro)
 - [Docs Playwright: Page Object Models](https://playwright.dev/docs/pom)
+- [JEST - javascript testing framework](https://jestjs.io/)
 
 - Learning Path [Web UI javascript](https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path)
 - [Playwright course](https://testautomationu.applitools.com/js-playwright-tutorial)
