@@ -2,11 +2,6 @@ const { chromium } = require ('playwright');
 const { ClassicRunner, Eyes, Target, RectangleSize } = require('@applitools/eyes-playwright');
 
 const URL = 'https://the-internet.herokuapp.com/dynamic_content';
-const search_field = '#searchBox';
-const first_row_selector = ".ReactTable .rt-tr-group:nth-child(1) .rt-td";
-const book_title = 'Eloquent JavaScript, Second Edition';
-const author = 'Marijn Haverbeke';
-const publisher = 'No Starch Press';
 
 describe(`UI tests for dynamic content using playwright and applitools`, ()=> {
     jest.setTimeout(50000);
