@@ -10,6 +10,8 @@ Execute in terminal:
 
 > npm install -D jest
 
+> npm i -D @applitools/eyes-playwright
+
 # Resources
 
 - [Playwright website](https://playwright.dev/docs/intro)
