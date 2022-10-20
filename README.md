@@ -21,5 +21,14 @@ Execute in terminal:
 - Learning Path [Web UI javascript](https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path)
 - [Playwright course](https://testautomationu.applitools.com/js-playwright-tutorial)
 - [How to use Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
+- [Page Object Models - Selenium docs](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
 - [Available UI elements](https://the-internet.herokuapp.com/)
 - [Available UI elements, forms, widgets](https://demoqa.com/)
+
+Extra tool:
+- [Applitools: Eyes](https://applitools.com/tutorials/quickstart/web/playwright/typescript)
+
+Playwright CLI:
+> npx playwright codegen <URL>
+
+After launching Playwright Inspector => choose Library (in order to generate js code)
